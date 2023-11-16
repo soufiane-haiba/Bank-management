@@ -28,6 +28,7 @@ if ($conn->query($sqlInsertDataAccount)) {
 
 // Fermeture de la connexion
 
+// helloo
 // hello
 $conn->close();
 
