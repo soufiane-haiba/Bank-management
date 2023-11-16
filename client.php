@@ -3,7 +3,7 @@
 $servername = "localhost";
 $username = "root";
 $password = "";
-$database = "bankmanagement"; // Change this to your actual database name
+$database = "bankmanagement";
 
 $conn = new mysqli($servername, $username, $password, $database);
 
@@ -20,13 +20,28 @@ $sqlInsertDataClient = "INSERT INTO client (nom, prenom, datenaissance, national
                     ('Yassine', 'Haiba', '1985/12/15', 'Moroccan', 'male'),
                     ('Alae', 'Rami', '1985/12/15', 'Canadian', 'male')";
 
-if ($conn->query($sqlInsertDataClient)) {
-    echo "Data inserted into 'client' successfully";
-} else {
-    echo "Error inserting data into 'client': " . $conn->error;
-}
+// if ($conn->query($sqlInsertDataClient)) {
+//     echo "Data inserted into 'client' successfully";
+// } else {
+//     echo "Error inserting data into 'client': " . $conn->error;
+// }
+
 
 // Close connection
 $conn->close();
 
 ?>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+
+
+</body>
+</html>
