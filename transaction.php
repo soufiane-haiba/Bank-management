@@ -40,6 +40,7 @@ if (isset($_GET['id'])) {
     $accountsResult = $conn->query($fetchAccountsQuery);
 }
 
+
 ?>
 
 <!DOCTYPE html>
